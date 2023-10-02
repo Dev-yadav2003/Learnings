@@ -1,0 +1,63 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;  
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    
+}
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+#left{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1642176849879-92f85770f212?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#right{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1617780421620-8d893567fbca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#overlay1{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.432);
+}
+#overlay2{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.342);
+}
+#text1{
+    font-size: 30px;
+    font-weight: 10px;
+    width: 100%;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#text2{
+    font-size: 25px;
+    width: 100%;
+    font-weight: 10px;
+    color: black;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
