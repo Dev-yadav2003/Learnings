@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+#main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+#centex{
+    position: absolute;
+    left: 28%;
+    top: 37%;
+    font-size: 45px;
+    color: white;
+    font-weight: 500;
+    font-family: "voyage";
+    letter-spacing: 4px;
+    user-select: none;
+    z-index: 9999;
+}
+#centex h2{
+    left: -5%;
+    top: 90%;
+    position: absolute;
+    font-size: 35px;
+    font-weight: 900;
+}
+#left{
+    background-color: #E8D7C8;
+    width: 46%;
+    height: 100%;
+    position: relative;
+}
+#nav{
+    display: flex;
+    gap: 150px;
+    padding: 40px 50px;
+    align-items: center;
+    width: 100%;
+}
+#nav a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;  
+}
+#nav h5{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+#limg{
+   background-image: url(https://images.unsplash.com/photo-1609505848912-b7c3b8b4beda?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1530&q=80);
+   width: 50%;
+   height: 60%;
+   background-size: cover;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   position: absolute;
+}
+#text{ 
+    position: absolute;
+    bottom: -130px;
+    width: 100%;
+    display: flex;
+    
+}
+#para{
+     margin-left: 20px;
+     font-size: 15px;
+     font-weight: 500;
+     opacity: .5;
+     margin-bottom: 20px;
+}
+#text h4{
+    font-size: 15px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+#sidetext{
+    font-size: 20px;
+    left: 10%;
+    bottom: 27%;
+    transform-origin: 0% 50%;
+    position: absolute;
+    display: flex;
+    transform: rotate(90deg);
+    gap: 5px;
+    align-items: center;
+    color: white;
+    font-weight: 800;
+}
+#line{
+    width: 100px;
+    height: 2px;
+    background-color: white;
+}
+#middle{
+    background-image: url(https://images.unsplash.com/photo-1622113811634-93941531166d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fGZhc2hpb24lMjBnaXJsfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60);
+    width: 46%;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+}
+#mtext{
+    display: flex;
+    right: 0;
+    position: absolute;
+    top: 60%;
+    margin-right: 20px;
+}
+#mtext h5{
+    margin-right: 30px;
+    font-size: 20px;
+    color: white;
+}
+#mtext h4{
+    font-size: 19px;
+    color: white;
+    font-weight: 900;
+}
+#sideimg{
+    width: 330px;
+    height: 220px;
+    background-image: url(https://images.unsplash.com/photo-1614090965443-3df21c6906ec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1528&q=80);
+    position: absolute;
+    background-size: cover;
+    right: -12%;
+    bottom: 60px;
+}
+#rect{
+    width: 20%;
+    height: 100%;
+    background-color: white;
+    position: absolute; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    text-align: center;
+}
+#rect i{
+   font-size: 40px;
+}
+#right{
+    background-color: #E8D7C8;
+    width: 8%;
+    height: 100%;
+}
+#right i{
+    font-size: 25px;
+    position: absolute;
+    right: 15px;
+    margin-top: 15px;
+}
+#sidebar{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    transform: rotate(90deg);
+    gap: 30px;
+}
+#sidebar a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+   
+}
+#search1{
+    margin-left: 30px;
+}
+#search2{
+    margin-left: 30px;
+}
