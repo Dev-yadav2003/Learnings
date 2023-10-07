@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://plus.unsplash.com/premium_photo-1664304191259-567c510710dd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#nav{
+    position: absolute;
+    padding: 0 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+    color: #ffffff;
+}
+#nav #link{
+    gap: 3vw;
+    display: flex;   
+}
+#nav #link a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: white;
+}
+#logo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#nav h2{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+#nav h6{
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    opacity: .6;
+    color: white;
+}
+#nav i{
+    display: none;
+}
+#element{
+    width: 3.5vw;
+    height: .5vh;
+    background-color: white;
+}
+#main #left{
+    width: 25%;
+    height: 100%;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    padding: 0 80px;
+    gap: 80px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.144);
+}
+#left .ltext{
+    width: 100%;
+    color: white;
+}
+#left .ltext:nth-child(2) h4{
+    font-size: 60px;
+    white-space: nowrap;
+    opacity: 1;
+    border-bottom: 3px solid white;
+}
+#left .ltext:nth-child(2) h6{
+    font-size: 20px;
+    white-space: nowrap;
+}
+.ltext h4{
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    margin-bottom: 2px;
+    white-space: nowrap;
+    display: inline-block;
+    margin-bottom: 5px;
+    border-bottom: 1px solid white;
+    opacity: .7;
+}
+.ltext h6{
+    margin-bottom: 12px;
+    margin-top: 4px;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1px;
+    opacity: .6;
+}
+#left #scroll{ 
+    gap: 20px;
+    display: flex;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    align-items: center;
+    transform: translate(-50%,0) rotate(-90deg);
+    color: white;
+    transform-origin: 0 50%;
+}
+#scroll #line{
+    width: 100px;
+    height: 2px;
+    background-color: white;
+}
+#main #right{
+    width: 75%;
+    height: 100%;
+}
+#rtext{
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0%,-50%);
+    color: white;
+    text-align: right;
+}
+#rtext h3{
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 1;
+}
+#rtext h1{
+    font-size: 180px;
+    font-weight: 600;
+    line-height: 1;
+}
+#rtext #input{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+#rtext #input i{
+    font-size: 25px;
+}
+#rtext input{
+    width: 100%;   
+    padding: 12px 20px;
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    font-weight: 600;
+}
+#rtext input::placeholder{
+    outline: none;
+   color:white;
+}
+#right small{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    color: white;
+}
+@media(max-width: 500px){
+     #main #nav{
+        height: 50px;
+        padding: 0 20px;
+     }
+     #nav #logo h6{
+        font-size: 9px;
+     }
+     #nav #logo h2
+     {
+        font-size: 15px;
+     }
+     #nav #link{
+        display: none;
+     }
+     #nav i{
+        display: initial;
+        font-size: 20px;
+     }
+     #left{
+        padding: 0 20px;
+        width: 100%;
+        height: 60%;
+     }
+     #left .ltext:nth-child(2) h4{
+        font-size: 30px;
+     }
+     #left .ltext:nth-child(2) h6{
+        font-size: 20px;
+     }
+    }
