@@ -119,3 +119,40 @@
 // a(12); agrument 
 // fat arrow fnc with one param
 // fat arrow with implicit return
+
+// --array 
+// array hota hai 1 se jada elements ko ek sath rakhna 
+
+// var a=[1,2,3,4,"hello"];
+// how to use array
+// a[3]=4
+
+// array mein ek value hatate kaise hai last se
+//  a.pop();
+
+// array main ek value kaise add karte hai
+// a.push();
+
+// array se ek value kaise hatyenge beech se
+// a.slice(konse index se hatana hai,kitne bande hatane hai)
+//var a=[1,2,3,4,5,6,7,8];
+// a.splice(4,1);
+//a.splice(3,2);
+
+// Objects
+//object banaate hai jab ek element ki sari details saari details history
+// var colin={
+//      dev:"colin",
+//      material:"plastic",
+//      price:70,
+//      mahngahaikya:false,
+//      khamiltahai:"dukaan pe"
+// }
+// var user={
+//     name:"dev",
+//     age:20,
+//     email:"abc@gmail.com",
+// }
+
+// if there is dot after any thing than it is Object
+// eg- a.b.c here a and be are objects c may or may not me object
