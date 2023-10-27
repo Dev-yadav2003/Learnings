@@ -43,6 +43,13 @@ html,body{
 .card h3{
     font-size: 1rem;
 }
+.card #Stranger{
+    font-size: 0.8rem;
+    color: rgb(244, 101, 101);
+}
+.card #Friends{
+    color: rgb(76, 177, 76);
+}
 .card p{
     font-size: 0.8rem;
 }
@@ -50,6 +57,11 @@ html,body{
     padding: 8px 20px;
     border-radius: 5px;
     color: white;
-    background-color: rgb(8, 198, 198);
     border: none;
+}
+.card button.blue{
+    background-color: rgb(8, 198, 198);
+}
+.card button.red{
+    background-color: rgb(244, 101, 101);
 }

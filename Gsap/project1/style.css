@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+#left{
+    width: 35%;
+    height: 100%;
+    color: white;
+    position: relative;
+    background-color: rgb(196, 67, 67);
+}
+#text{
+    top: 20%;
+    left: 50px;
+    position: absolute;
+}
+#text h1{
+    font-size: 2.5rem;
+}
+#text h1 span{
+    font-weight: 100;
+}
+#text h3{
+    font-size: 2rem;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+#text p{
+    font-size: 0.8rem;
+    font-weight: 500;
+    width: 80%;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+#text button{
+    letter-spacing: 1px;
+    padding: 5px 40px;
+    color: brown;
+    font-weight: 300;
+    border: none;
+    border-radius: 4px;
+}
+#left #btm{
+    width: 90%;
+    height: 60px;
+    bottom: 10px;
+    left: 0;
+    color: black;
+    padding: 1px 10px;
+    position: absolute;
+    background-color: white;
+}
+#right{
+    position: relative;
+    width: 65%;
+    height: 100%;
+    background-color: #e2dede;
+}
+#right >img{
+    position: absolute;
+    top: 50%;
+    left: -5%;
+    object-fit: cover;
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#right #center{
+    position: absolute;
+    top: 20%;
+    left: 27%;
+}
+#center h1{
+    color: brown;
+    font-size: 2.7rem;
+}
+#center h1 span{
+    color: black;
+    font-weight: 100;
+    font-size: 2.7rem;
+    margin-bottom: 10px;
+}
+#center h3{
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+#center p{
+    width: 80%;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+#right #btn {
+    display: flex;
+    gap: 20px;
+}
+#right #btn button{
+    padding: 10px 20px;
+}
+#center #btn button:nth-child(1){
+    border-radius: 5px;
+    background-color: transparent;
+    color: brown;
+    border: 1px solid brown;
+}
+#center #btn button:nth-child(2){
+    border-radius: 30px;
+    background-color: brown;
+    color: white;
+    border: none;
+}
+#sample-text{
+    margin-top: 20px;
+}
+ #samples{
+    gap: 30px;
+    display: flex;
+    margin-top: 20px;
+}
+.images{
+    width: 110px;
+    overflow: hidden;
+    border-radius: 10px;
+    height: 60px;
+    object-fit: cover;
+    object-position: center;
+}
+.images img{
+  width: 100%;
+}
