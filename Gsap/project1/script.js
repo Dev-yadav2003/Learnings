@@ -1,5 +1,5 @@
 var tl = gsap.timeline();
-gsap.set(".a",{opacity :0,y:10})
+gsap.set(".a",{opacity:0,y:10})
 gsap.set("#right img",{opacity:0,y:10,scale:1.2})
 
 tl.from("#left",{

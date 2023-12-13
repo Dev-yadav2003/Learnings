@@ -54,11 +54,15 @@
 //     }
 // })
 
-gsap.to("#box",{
-    x:200,
-    ease:Expo.easeInOut,
-    duration:2,
-    onUpdate:function(){
-       console.log("hey")
-    }
-})
+// gsap.to("#box",{
+//     x:200,
+//     ease:Expo.easeInOut,
+//     duration:2,
+//     onUpdate:function(){
+//        console.log("hey")
+//     }
+// })
+
+
+
+
