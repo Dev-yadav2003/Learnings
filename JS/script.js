@@ -134,7 +134,7 @@
 // a.push();
 
 // array se ek value kaise hatyenge beech se
-// a.slice(konse index se hatana hai,kitne bande hatane hai)
+// a.splice(konse index se hatana hai,kitne bande hatane hai)
 //var a=[1,2,3,4,5,6,7,8];
 // a.splice(4,1);
 //a.splice(3,2);
